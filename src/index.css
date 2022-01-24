@@ -1,0 +1,39 @@
+/* For Header Content */
+
+body,
+html {
+  margin: none;
+  padding: none;
+}
+
+.top {
+  background-image: url("./img/bread.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 10%;
+  align-items: center;
+  background: none;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.tabs li {
+  list-style: none;
+}
+
+.welcome_text p {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre;
+}
