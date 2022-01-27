@@ -3,23 +3,16 @@ import {landing_page} from "./pages/landing";
 import { menu } from "./pages/menu";
 import { contact } from "./pages/contact";
 
+import './css/index.css';
 
-const content = document.querySelector("#content");
-
-tab_display();
-landing_page();
-
-const buttons = document.querySelectorAll('.link');
-
-buttons.forEach(button =>{
-    button.addEventListener('click', ()=>{
-        content.removeChild(content.lastChild);
-        if(button.id === "Home"){
-            landing_page();
-        } else if(button.id === "ContactUs"){
-            contact();
-        } else {
-            menu();
-        }
-    });
-});
+const tab_triggers = document.querySelectorAll('.tab_link');
+tab_triggers.forEach(tab =>{
+    tab.addEventListener('click', ()=>{
+        let current_tab = document.querySelector(`.link[data-tab-content = "'${tab.dataset.tabTrigger}'"]`);
+        console.log(tab.textContent);
+        document.querySelector('.list.active').classList.remove('active');
+        document.querySelector('.tab_content.open').classList.remove('open');
+        current_tab.classList.add('open');
+        tab.classList.add('active');
+    })
+})

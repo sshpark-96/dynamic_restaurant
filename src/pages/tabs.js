@@ -1,6 +1,6 @@
 import "../css/tabs.css";
 
-const tab_display = () =>{
+const tab_display = (() =>{
     const content = document.querySelector('#content');
     const nav_bar = document.createElement('nav');
     nav_bar.className = "nav_bar";
@@ -15,8 +15,11 @@ const tab_display = () =>{
     for(let item of tabs_items){
         let tab = document.createElement('li');
         let link = document.createElement('a');
-        link.classList.add("link");
-        link.id = item.replace(/\s/g, '');
+        link.classList.add("tab_link");
+        if(tabs_items.indexOf(item) == 0){
+            link.classList.add("active");
+        }
+        link.setAttribute('data-tab-trigger', tabs_items.indexOf(item));
         link.textContent = item;
         tab.appendChild(link);
         tabs.appendChild(tab);
@@ -25,6 +28,6 @@ const tab_display = () =>{
     nav_bar.appendChild(logo);
     nav_bar.appendChild(tabs);
     content.appendChild(nav_bar);
-}
+})();
 
 export {tab_display};
