@@ -1,3 +1,7 @@
+.tab_content {
+  display: none;
+}
+
 .open {
   display: flex;
 }
