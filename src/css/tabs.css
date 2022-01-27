@@ -3,12 +3,18 @@
   background-color: #282918;
 }
 
-header {
+.nav_bar {
   display: flex;
   justify-content: space-between;
   padding: 25px 10%;
   align-items: center;
+  height: 50px;
   background: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #282918;
 }
 
 .logo {
@@ -30,4 +36,5 @@ header {
   color: whitesmoke;
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
 }
