@@ -16,13 +16,5 @@ tab_triggers.forEach(tab =>{
         document.querySelector('.tab_content.open').classList.remove('open');
         tab.classList.add('active');
         tab_content.classList.add('open');
-    })
-    // tab.addEventListener('click', ()=>{
-    //     let current_tab = document.querySelector(`.link[data-tab-content = "'${tab.dataset.tabTrigger}'"]`);
-    //     console.log(tab.textContent);
-    //     document.querySelector('.list.active').classList.remove('active');
-    //     document.querySelector('.tab_content.open').classList.remove('open');
-    //     current_tab.classList.add('open');
-    //     tab.classList.add('active');
-    // })
-})
+    });
+});

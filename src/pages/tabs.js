@@ -23,7 +23,7 @@ const tab_display = (() =>{
         link.textContent = item;
         tab.appendChild(link);
         tabs.appendChild(tab);
-    }
+    };
 
     nav_bar.appendChild(logo);
     nav_bar.appendChild(tabs);

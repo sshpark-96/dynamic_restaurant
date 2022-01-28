@@ -19,4 +19,14 @@ const landing_page = (()=>{
     content.appendChild(welcome_text);
 })();
 
+document.querySelector('.welcome_button').addEventListener('click', ()=>{
+    let tab_trigger = document.querySelector('.tab_link[data-tab-trigger = "1"]');
+    let tab_content = document.querySelector('.tab_content[data-tab-content = "1"]');
+    document.querySelector('.tab_link.active').classList.remove('active');
+    document.querySelector('.tab_content.open').classList.remove('open');
+    tab_content.classList.add('open');
+    tab_trigger.classList.add('active');
+});
+
+
 export {landing_page};

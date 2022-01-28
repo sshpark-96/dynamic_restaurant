@@ -30,6 +30,6 @@
 }
 
 .welcome_button:hover {
-  transform: scale(1.8);
+  transform: scale(1.3);
   border: white solid 1px;
 }

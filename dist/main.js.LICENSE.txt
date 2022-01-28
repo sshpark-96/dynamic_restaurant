@@ -1,38 +1,122 @@
-/*! !!../node_modules/css-loader/dist/cjs.js!./index.css */
+/*! !!../../node_modules/css-loader/dist/cjs.js!./index.css */
 
-/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+/*! !!../../node_modules/css-loader/dist/cjs.js!./landing.css */
 
-/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */
+/*! !!../../node_modules/css-loader/dist/cjs.js!./menu.css */
 
-/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+/*! !!../../node_modules/css-loader/dist/cjs.js!./tabs.css */
 
-/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
 
-/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */
 
-/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */
 
-/*! ../node_modules/css-loader/dist/runtime/api.js */
+/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
 
-/*! ../node_modules/css-loader/dist/runtime/getUrl.js */
+/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */
 
-/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */
+/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */
 
-/*! ./img/bread.jpg */
+/*! ../../node_modules/css-loader/dist/runtime/api.js */
 
-/*! ./index.css */
+/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */
+
+/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../css/landing.css */
+
+/*! ../css/menu.css */
+
+/*! ../css/tabs.css */
+
+/*! ../img/bread.jpg */
+
+/*! ../img/burger.jpg */
+
+/*! ../img/cake.jpg */
+
+/*! ../img/ramen.jpg */
+
+/*! ../img/salad.jpg */
+
+/*! ../img/toast.jpg */
+
+/*! ../img/wood_bg.jpg */
+
+/*! ./css/index.css */
+
+/*! ./pages/contact */
+
+/*! ./pages/landing */
+
+/*! ./pages/menu */
+
+/*! ./pages/tabs */
 
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 
-/*!***********************!*\
-  !*** ./src/index.css ***!
-  \***********************/
+/*!**************************!*\
+  !*** ./src/css/menu.css ***!
+  \**************************/
+
+/*!**************************!*\
+  !*** ./src/css/tabs.css ***!
+  \**************************/
+
+/*!**************************!*\
+  !*** ./src/img/cake.jpg ***!
+  \**************************/
+
+/*!***************************!*\
+  !*** ./src/css/index.css ***!
+  \***************************/
 
 /*!***************************!*\
   !*** ./src/img/bread.jpg ***!
   \***************************/
+
+/*!***************************!*\
+  !*** ./src/img/ramen.jpg ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/img/salad.jpg ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/img/toast.jpg ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/pages/menu.js ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/pages/tabs.js ***!
+  \***************************/
+
+/*!****************************!*\
+  !*** ./src/img/burger.jpg ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./src/css/landing.css ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/img/wood_bg.jpg ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/pages/contact.js ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/pages/landing.js ***!
+  \******************************/
 
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
@@ -46,13 +130,25 @@
   !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
   \************************************************************/
 
-/*!*************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
-  \*************************************************************/
-
 /*!***************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
   \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/menu.css ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/tabs.css ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/index.css ***!
+  \*****************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/landing.css ***!
+  \*******************************************************************/
 
 /*!********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!

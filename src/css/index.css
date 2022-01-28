@@ -1,3 +1,14 @@
+#content {
+  background-image: url("../img/wood_bg.jpg");
+  background-size: absolute;
+  background-repeat: repeat-y;
+  scrollbar-width: none;
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
 .tab_content {
   display: none;
 }
